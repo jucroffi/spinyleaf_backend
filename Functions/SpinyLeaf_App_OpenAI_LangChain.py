@@ -1,4 +1,3 @@
-
 import os
 import sys
 import openai
@@ -921,4 +920,5 @@ if collected_references:
 output_path = out_f / "Wellbeing_Report.docx"
 doc.save(output_path)
 os.startfile(output_path)
+
 
